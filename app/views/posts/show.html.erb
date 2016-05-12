@@ -1,0 +1,9 @@
+<header>
+  <h1><%= @post.title %></h1>
+  <ul class='actions'>
+    <li><%= link_to 'Edit Post', edit_post_path(@post), class: 'btn btn-primary' %></li>
+  </ul>
+</header>
+<p>
+  <%= @post.content %>
+</p>

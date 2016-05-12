@@ -343,7 +343,7 @@ DEPENDENCIES
   autoprefixer-rails
   bootstrap-sass (~> 3.3.5.1)
   byebug
-  capybara (~> 2.4)
+  capybara (~> 2.7, >= 2.7.1)
   codeclimate-test-reporter
   coffee-rails (~> 4.1.0)
   database_cleaner (~> 1.4)
